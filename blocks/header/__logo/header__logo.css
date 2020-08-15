@@ -1,17 +1,16 @@
 .header__logo {
-     max-width: 176px;
-     max-height: 52px; 
+     width: 176px;
+     height: 52px; 
      margin: 0;
+     background-image: url(../../../images/header-logo.svg);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {   
   .header__logo {
-     transform: scale(0.806);
+    max-width: 142px;
+    background-size: 142px 42px;
   }
 } 
-
-
-
-
-
 

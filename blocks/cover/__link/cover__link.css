@@ -1,4 +1,10 @@
 .cover__link {
      text-decoration: none;
      color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url(../../../images/cover-trains.png);
+     background-repeat: no-repeat;
+     background-size: cover;
 }

@@ -1,6 +1,12 @@
 .header__link_status_active {
     text-decoration: underline;
+    /* pointer-events: none;
+    cursor: default; */
 }
+/* оставлю как фичи на будущее, потому что в задании "все ссылки активируются"
+.header__link_status_active:hover {
+    opacity: 1.0;
+} */
 
 
 

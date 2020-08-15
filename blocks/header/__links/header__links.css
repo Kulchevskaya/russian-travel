@@ -2,15 +2,10 @@
     list-style: none;
     padding: 0;
     display: flex;
+    align-items: center;
+    margin: 0;
     margin-left: auto;    
 }
-
-@media (min-width: 320px) and (max-width: 767px) {         
-    .header__links {
-        align-items: flex-end;   
-    }
-}
-
 
 
 
