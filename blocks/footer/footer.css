@@ -1,0 +1,14 @@
+.footer {
+     max-width: 1184px;
+     padding: 0 48px 24px;
+     display: flex;
+     margin: 0 auto; 
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+     .footer {
+         flex-direction: column;
+         max-width: 288px;
+         padding: 0 0 24px;  
+     }
+}

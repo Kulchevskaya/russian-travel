@@ -1,0 +1,19 @@
+.intro__list {
+     margin: 0;
+     list-style: none;
+     padding: 0;    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {    
+
+     .intro__list {
+         margin-left: 24px;
+     }
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+     .intro__list {
+         margin-left: 16px;
+         margin-right: 16px; 
+     }
+}

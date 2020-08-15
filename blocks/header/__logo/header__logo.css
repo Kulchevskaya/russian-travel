@@ -1,0 +1,17 @@
+.header__logo {
+     max-width: 176px;
+     max-height: 52px; 
+     margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {   
+  .header__logo {
+     transform: scale(0.806);
+  }
+} 
+
+
+
+
+
+
