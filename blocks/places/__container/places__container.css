@@ -27,6 +27,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
      .places__container {    
          display: flex;
+         gap: 0 0; /* !Achtung! Firefox поддерживает gap для флекса  */
          flex-direction: column;
          margin-bottom: 48px;  
      }
