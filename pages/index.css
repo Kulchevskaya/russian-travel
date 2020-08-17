@@ -21,7 +21,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-text/intro__list-text.css);
-@import url(../blocks/intro/__list-text/__style/intro__list-text_style_normal.css); /* БЭМ: к эелементу всегда пишем первое и второе, даже если от родителя пришло значение */
+@import url(../blocks/intro/__list-numbers/intro__list-numbers.css); /* Благодарю! Got it. С т.з. верстки и БЭМ тут два элемента в строке (а не сплошное полотно). Текст и цифры. Не модификатор, потому что не изменение стилей одного и того же элемента или одного из множества. */
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
